@@ -4,9 +4,41 @@
 
 ## Features
 
-- get request
-- post request
-- put request
+- anime-random-image
+- animeku
+- avatar-generator
+- bitly-shortener
+- brainly-scraper
+- dns-lookup
+- earthquake
+- ebook
+- fake-data-generator
+- freepik-scraper
+- fileinfo-mediafire
+- get-youtube-video-link
+- get-instagram-media-link
+- get-facebook-video-link
+- github-user
+- google-scraper
+- highlight-code
+- html-viewer
+- image-scraper
+- instagram-user
+- indonesian-territory
+- ip-geolocation
+- joox-music
+- my-public-ip
+- port-scanner
+- prank-call
+- quote-generator
+- sim-simi
+- translate
+- web-page-scanner-info
+- web-page-screenshot
+- weather
+- wiki-pedia
+
+More info [afara.my.id](https://afara.my.id/). 
 
 ## Install via composer
 
