@@ -8,13 +8,23 @@
 - post request
 - put request
 
-## Installing afara-restapi
+## Install via composer
 
-The recommended way to install afara-restapi is through
+Cara yang disarankan untuk memasang afara-restapi adalah melalui
 [Composer](https://getcomposer.org/).
 
 ```bash
 > composer require ryodevz/afara-restapi
+```
+## Install via git
+
+```bash
+> git clone https://github.com/ryodevz/afara-restapi
+```
+
+Lalu jalankan perintah ini
+```bash
+> composer install
 ```
 
 ### Example usage
