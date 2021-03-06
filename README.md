@@ -20,6 +20,7 @@ The recommended way to install afara-restapi is through
 ### Example usage
 ```php
 <?php
+
 use Ryodevz\Api;
 
 require 'vendor/autoload.php';
