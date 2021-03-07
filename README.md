@@ -22,7 +22,7 @@ Cara yang disarankan untuk memasang afara-restapi adalah melalui
 | Method | Description | 
 | :---: | :---: | 
 | animeRandomImage() | Ramdom gambar |
-| search($query'), episode($anime_slug), video($episode_slug) | film anime |
+| search($query'), episodes($anime_slug), video($episode_slug) | film anime |
 | avatarGenerator() [name, color, background] | Generate avatar |
 | bitlyShortener($link) | Perpendek link |
 | brainlyScraper($query) | Cari tau |

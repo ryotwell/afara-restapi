@@ -19,7 +19,7 @@ class Animeku
         return AfaraMyId::json($this->base . $this->search . '?q=' . $q);
     }
 
-    public function episode(string $slug)
+    public function episodes(string $slug)
     {
         return AfaraMyId::json($this->base . $this->episode . '?slug=' . $slug);
     }
