@@ -23,42 +23,41 @@ Lalu jalankan perintah ini
 
 ## Features
 
-| Api | Method |
-| :---: | :---: |
-| anime-random-image | animeRandomImage() |
-| animeku | search(), episode(), video() |
-
-- avatar-generator
-- bitly-shortener
-- brainly-scraper
-- dns-lookup
-- earthquake
-- ebook
-- fake-data-generator
-- freepik-scraper
-- fileinfo-mediafire
-- get-youtube-video-link
-- get-instagram-media-link
-- get-facebook-video-link
-- github-user
-- google-scraper
-- highlight-code
-- html-viewer
-- image-scraper
-- instagram-user
-- indonesian-territory
-- ip-geolocation
-- joox-music
-- my-public-ip
-- port-scanner
-- prank-call
-- quote-generator
-- sim-simi
-- translate
-- web-page-scanner-info
-- web-page-screenshot
-- weather
-- wiki-pedia
+| Method | Description | 
+| :---: | :---: | 
+| animeRandomImage() | Ramdom gambar |
+| search($query'), episode($anime_slug), video($episode_slug) | film anime |
+| avatarGenerator() [name, color, background] | Generate avatar |
+| bitlyShortener($link) | Perpendek link |
+| brainlyScraper($query) | Cari tau |
+| dnsLookup($domain) | Dns |
+| earthquake() | Gempa |
+| ebook($query) | E-Book |
+| fakeDataGenerator($options) ['sub', 'limit', 'locale'] | Generate data palsu |
+| freepikScraper($query) | Cari design |
+| fileinfoMediafire($link) | Info file mediafire |
+| getYoutubeVideoLink($link) | url video |
+| getInstagramMediaLink($link) | url media IG |
+| getFacebookVideoLink($link) | Video facebook |
+| githubUser($username) | Info user github |
+| googleScraper($query) | Search engine google |
+| highlightCode($body) | Warnai code program |
+| htmlViewer($link) | SC html |
+| imageScraper($query) | Cari gambar |
+| instagramUser($username) | User stalker | 
+| indonesianTerritory($wilayah) | Wilayah Indo |
+| ipGeolocation($ipaddress) | Geo IP |
+| search($query), album($albumid) show($musicid) | Joox music |
+| myPublicIp() | ip public |
+| portScanner($hostname) | Scan port |
+| prankCall($number) | prank-call |
+| quoteGenerator() | Quotes |
+| simSimi($text) | sim-simi |
+| translate(['text' => 'Hello', 'to' => 'id_ID]) | Translate |
+| webPageScannerInfo($Link) | Scan |
+| webPageScreenshot($link) | Screenshot |
+| weather() | Cuaca |
+| wikiPedia($query) | wiki-pedia |
 
 More info [afara.my.id](https://afara.my.id/).
 
