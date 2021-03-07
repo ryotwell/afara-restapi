@@ -4,7 +4,7 @@
 
 ## Features
 
-- [anime-random-image](AnimeRandomImage)
+- [anime-random-image](#AnimeRandomImage)
 - animeku
 - avatar-generator
 - bitly-shortener
