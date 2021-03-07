@@ -14,13 +14,9 @@ Cara yang disarankan untuk memasang afara-restapi adalah melalui
 
 ```bash
 > git clone https://github.com/ryodevz/afara-restapi
-```
-
-Lalu jalankan perintah ini
-```bash
+> cd afara-restapi
 > composer install
 ```
-
 ## Features
 
 | Method | Description | 
@@ -59,9 +55,9 @@ Lalu jalankan perintah ini
 | weather() | Cuaca |
 | wikiPedia($query) | wiki-pedia |
 
-More info [afara.my.id](https://afara.my.id/).
+Info selengkapnya [afara.my.id](https://afara.my.id/).
 
-### Example usage
+### Contoh memanggil untuk Api MyPublicIP
 ```php
 <?php
 
@@ -71,8 +67,22 @@ require 'vendor/autoload.php';
 
 $api = new Api;
 
-var_dump($api->myPublicIp());
+$ipaddress = $api->myPublicIp();
 
-// Example Response
-192.168.2.1 
+echo $ipaddress;
+```
+
+### Contoh memanggil untuk Api Animeku
+```php
+<?php
+
+use Ryodevz\Api;
+
+require 'vendor/autoload.php';
+
+$api = new Api;
+
+$search = $api->animeku()->search('naruto');
+$episodes = $api->animeku()->episodes('naruto-shippuuden');
+$video_url = $api->animeku()->video('naruto-shippuuden-episode-488-sub-indo');
 ```
