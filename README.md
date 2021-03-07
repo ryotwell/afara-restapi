@@ -2,7 +2,30 @@
 [![Latest Version](https://img.shields.io/github/v/release/ryodevz/afara-restapi.svg?style=flat-square)](https://github.com/ryodevz/afara-restapi/releases)
 [![Total Downloads](https://img.shields.io/packagist/dt/ryodevz/afara-restapi.svg?style=flat-square)](https://packagist.org/packages/ryodevz/afara-restapi)
 
+## Install via composer
+
+Cara yang disarankan untuk memasang afara-restapi adalah melalui
+[Composer](https://getcomposer.org/).
+
+```bash
+> composer require ryodevz/afara-restapi
+```
+## Install via git
+
+```bash
+> git clone https://github.com/ryodevz/afara-restapi
+```
+
+Lalu jalankan perintah ini
+```bash
+> composer install
+```
+
 ## Features
+
+| Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11 | #12 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269 | 254 |
 
 - [anime-random-image](#AnimeRandomImage)
 - animeku
@@ -39,25 +62,6 @@
 - wiki-pedia
 
 More info [afara.my.id](https://afara.my.id/).
-
-## Install via composer
-
-Cara yang disarankan untuk memasang afara-restapi adalah melalui
-[Composer](https://getcomposer.org/).
-
-```bash
-> composer require ryodevz/afara-restapi
-```
-## Install via git
-
-```bash
-> git clone https://github.com/ryodevz/afara-restapi
-```
-
-Lalu jalankan perintah ini
-```bash
-> composer install
-```
 
 ### Example usage
 ```php
