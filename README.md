@@ -4,7 +4,7 @@
 
 ## Features
 
-- anime-random-image
+- [anime-random-image](AnimeRandomImage)
 - animeku
 - avatar-generator
 - bitly-shortener
@@ -38,7 +38,7 @@
 - weather
 - wiki-pedia
 
-More info [afara.my.id](https://afara.my.id/). 
+More info [afara.my.id](https://afara.my.id/).
 
 ## Install via composer
 
