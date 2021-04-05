@@ -4,7 +4,7 @@ namespace Ryodevz;
 
 class AfaraMyId
 {
-    public static $base = 'https://afara.my.id/api/';
+    public static $base = 'http://public-restapi.herokuapp.com/';
 
     public static function json($link)
     {
