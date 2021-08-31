@@ -1,9 +1,9 @@
 {
     "name": "ryodevz/afara-restapi",
-    "description": "Rest APi",
+    "description": "Public REST API wrapper for sasasasas for ease of use.",
     "type": "library",
     "require": {
-        "ryodevz/httpfulwrapper": "^1.0"
+        "ryodevz/httpfulwrapper": "^2.0"
     },
     "license": "MIT",
     "authors": [
@@ -13,6 +13,12 @@
         }
     ],
     "autoload": {
-        "psr-4": {"Ryodevz\\": "src/"}
-    }
+        "psr-4": {
+            "Ryodevz\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
 }

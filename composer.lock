@@ -1,0 +1,113 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "acfe37c9dbf468840695084646cdf058",
+    "packages": [
+        {
+            "name": "nategood/httpful",
+            "version": "0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nategood/httpful.git",
+                "reference": "0cded3ea97ba905600de9ceb9ef13f3ab681587c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nategood/httpful/zipball/0cded3ea97ba905600de9ceb9ef13f3ab681587c",
+                "reference": "0cded3ea97ba905600de9ceb9ef13f3ab681587c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Httpful": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nate Good",
+                    "email": "me@nategood.com",
+                    "homepage": "http://nategood.com"
+                }
+            ],
+            "description": "A Readable, Chainable, REST friendly, PHP HTTP Client",
+            "homepage": "http://github.com/nategood/httpful",
+            "keywords": [
+                "api",
+                "curl",
+                "http",
+                "requests",
+                "rest",
+                "restful"
+            ],
+            "support": {
+                "issues": "https://github.com/nategood/httpful/issues",
+                "source": "https://github.com/nategood/httpful/tree/v0.3.2"
+            },
+            "time": "2020-01-25T01:13:13+00:00"
+        },
+        {
+            "name": "ryodevz/httpfulwrapper",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ryodevz/httpfulwrapper.git",
+                "reference": "6128dd4d5dae722a7a326b2890a548b9f7c187e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ryodevz/httpfulwrapper/zipball/6128dd4d5dae722a7a326b2890a548b9f7c187e4",
+                "reference": "6128dd4d5dae722a7a326b2890a548b9f7c187e4",
+                "shasum": ""
+            },
+            "require": {
+                "nategood/httpful": "^0.3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ryodevz\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "RyoDev",
+                    "email": "ytryo789@gmail.com"
+                }
+            ],
+            "description": "A Wrapper class for httpful library to make it easy to use.",
+            "support": {
+                "issues": "https://github.com/ryodevz/httpfulwrapper/issues",
+                "source": "https://github.com/ryodevz/httpfulwrapper/tree/v2.0.0"
+            },
+            "time": "2021-08-31T16:43:53+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
