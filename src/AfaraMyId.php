@@ -2,17 +2,19 @@
 
 namespace Ryodevz;
 
+use Ryodevz\HttpfulWrapper\Http;
+
 class AfaraMyId
 {
-    public static $base = 'http://public-restapi.herokuapp.com/';
+    public static $base = 'https://public-restapi.herokuapp.com/';
 
     public static function json($link)
     {
-        return HttpfulWrapper::get(self::$base . $link)->send()->body;
+        return Http::get(self::$base . $link)->send()->body;
     }
 
     public static function TextOrPlain($link)
     {
-        return HttpfulWrapper::get(self::$base . $link)->send()->body;
+        return Http::get(self::$base . $link)->send()->body;
     }
 }
